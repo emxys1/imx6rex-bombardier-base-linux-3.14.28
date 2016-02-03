@@ -12,11 +12,12 @@
 
 #include "imx6q-sabresd.dts"
 
-&hdmi_video {
+/*&hdmi_video {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_hdmi_hdcp>;
 	fsl,hdcp;
-};
+};*/
+
 
 &i2c2 {
 	status = "disable";

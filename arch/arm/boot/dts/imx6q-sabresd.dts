@@ -26,6 +26,7 @@
 	offset-usb-charger = <1685>;
 };
 
+/*
 &ldb {
 	lvds-channel@0 {
 		crtc = "ipu2-di0";
@@ -54,4 +55,4 @@
 
 &sata {
 	status = "okay";
-};
+};*/
